@@ -12,6 +12,10 @@ app.use(express.json())
 const AccessToken = twilio.jwt.AccessToken
 const VoiceGrant = AccessToken.VoiceGrant
 
+app.get("/", (req, res) => {
+    res.send("This is an API enpoint.")
+})
+
 app.get("/token", (req, res) => {
     const identity = "browser-user"
 
