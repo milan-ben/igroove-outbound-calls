@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/milan-ben/igroove-outbound-calls#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "twilio": "^5.12.2"
   }
 }
